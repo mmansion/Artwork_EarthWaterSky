@@ -10,8 +10,8 @@ int rows = 16;
 float[][] grid = new float[rows][cols];
 float[][] targetGrid = new float[rows/2][cols]; // Now only 8x8
 ControlP5 cp5;
-int lowValue = 0;
-int highValue = 255;
+int lowValue = 50;
+int highValue = 0;
 Boolean showGui = false;
 
 SyphonServer server; // Declare a SyphonServer object
